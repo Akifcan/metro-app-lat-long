@@ -20,7 +20,7 @@ async function renderStations(coords) {
   } else {
     stationList.innerHTML = twoDot;
   }
-  stationName.textContent = nextStation?.Adi ?? "Lütfen trenden inis";
+  stationName.textContent = nextStation?.Adi ?? "Lütfen trenden inin";
   stations.forEach((station, index) => {
     const text = stationList
       .querySelector(`#station-${index + 1}-name`)
